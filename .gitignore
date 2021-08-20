@@ -1,1 +1,4 @@
 node_modules/
+psql -h localhost -p 5432
+postgres-data/
+*.env
