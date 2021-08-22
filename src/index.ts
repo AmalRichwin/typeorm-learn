@@ -2,6 +2,7 @@ import * as dotenv from 'dotenv';
 import { createConnection } from 'typeorm';
 
 import { Client } from './entities/Client';
+import { Banker } from './entities/Banker';
 
 dotenv.config();
 
@@ -13,7 +14,7 @@ const main = async () => {
       port: 5438,
       username: process.env.POSTGRES_USER,
       password: process.env.POSTGRES_PASSWORD,
-      entities: [Client],
+      entities: [Client, Banker],
       synchronize: true,
       logger: 'debug',
     });
