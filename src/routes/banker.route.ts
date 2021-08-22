@@ -1,11 +1,11 @@
-import { Banker } from './../entities/Banker';
-import { Client } from './../entities/Client';
+import { Banker } from '../entities/Banker';
+import { Client } from '../entities/Client';
 import express, { Request, Response } from 'express';
 import Logger from '../lib/logger';
 
 const router = express.Router();
 
-router.post('/api/banker', async (req: Request, res: Response) => {
+router.post('/banker', async (req: Request, res: Response) => {
   const { firstName, lastName, email, cardNumber, employeeId, phone } = req.body;
 
   const banker = Banker.create({
@@ -31,4 +31,4 @@ router.post('/api/banker', async (req: Request, res: Response) => {
   }
 });
 
-export { router as createBankerRouter };
+export { router as bankerRouter };

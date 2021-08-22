@@ -9,7 +9,7 @@ import { Transaction } from './entities/Transaction';
 /**
  * routes
  */
-import { createBankerRouter, createClientRouter } from './routes';
+import { clientRouter, bankerRouter, transactionRouter } from './routes';
 
 import morganMiddleware from './config/morganMiddleware';
 import Logger from './lib/logger';
@@ -37,10 +37,12 @@ const main = async () => {
     app.use(morganMiddleware);
 
     // routes
-    app.use(createClientRouter);
-    app.use(createBankerRouter);
 
-    app.listen(8080, () => Logger.debug('Listening on port 8080'));
+    app.use('/api', clientRouter);
+    app.use('/api', bankerRouter);
+    app.use('/api', transactionRouter);
+
+    app.listen(8081, () => Logger.debug('Listening on port 8081'));
   } catch (error) {
     Logger.error(error);
     throw new Error('unable to connect to postgres');

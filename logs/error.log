@@ -3,3 +3,5 @@
 2021-08-22 20:22:10:2210 [31merror[39m: [31mUnable to save client null value in column "phone" of relation "client" violates not-null constraint[39m
 2021-08-22 20:23:57:2357 [31merror[39m: [31mUnable to save client value "5496929857" is out of range for type integer[39m
 2021-08-22 20:24:16:2416 [31merror[39m: [31mUnable to save client value "9887676543" is out of range for type integer[39m
+2021-08-22 20:48:27:4827 [31merror[39m: [31mapp.use() requires a middleware function[39m
+2021-08-22 20:48:41:4841 [31merror[39m: [31mapp.use() requires a middleware function[39m

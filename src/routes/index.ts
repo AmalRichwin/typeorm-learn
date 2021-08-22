@@ -1,4 +1,5 @@
-import { createBankerRouter } from './create_banker';
-import { createClientRouter } from './create_client';
+import { bankerRouter } from './banker.route';
+import { clientRouter } from './client.route';
+import { transactionRouter } from './transaction.route';
 
-export { createClientRouter, createBankerRouter };
+export { bankerRouter, clientRouter, transactionRouter };

@@ -222,3 +222,133 @@
 2021-08-22 20:30:58:3058 [37mdebug[39m: [37mListening on port 8080[39m
 2021-08-22 20:31:25:3125 [37mdebug[39m: [37mConnection to postgres[39m
 2021-08-22 20:31:25:3125 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:41:25:4125 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:41:25:4125 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:46:30:4630 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:46:30:4630 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:48:27:4827 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:48:27:4827 [31merror[39m: [31mapp.use() requires a middleware function[39m
+2021-08-22 20:48:41:4841 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:48:41:4841 [31merror[39m: [31mapp.use() requires a middleware function[39m
+2021-08-22 20:49:12:4912 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:49:12:4912 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:49:24:4924 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:49:24:4924 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:49:35:4935 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:49:35:4935 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:50:48:5048 [37mdebug[39m: [37mCLIENT OBJ[39m
+2021-08-22 20:50:48:5048 [35mhttp[39m: [35mPOST /api/banker 200 242 - 168.421 ms[39m
+[35m[39m
+2021-08-22 20:51:15:5115 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:51:15:5115 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 23:26:07:267 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 23:26:07:267 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 23:26:56:2656 [35mhttp[39m: [35mGET /api/client/2/transaction 404 163 - 1.647 ms[39m
+[35m[39m
+2021-08-22 23:27:06:276 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 44 - 272.605 ms[39m
+[35m[39m
+2021-08-22 23:27:43:2743 [35mhttp[39m: [35mPOST /api/client/4/transaction 404 30 - 39.341 ms[39m
+[35m[39m
+2021-08-22 23:27:46:2746 [35mhttp[39m: [35mPOST /api/client/6/transaction 404 30 - 3.777 ms[39m
+[35m[39m
+2021-08-22 23:27:48:2748 [35mhttp[39m: [35mPOST /api/client/3/transaction 200 44 - 145.647 ms[39m
+[35m[39m
+2021-08-22 23:27:57:2757 [35mhttp[39m: [35mPOST /api/client/3/transaction 200 44 - 131.519 ms[39m
+[35m[39m
+2021-08-22 23:28:23:2823 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 23:28:23:2823 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 23:28:26:2826 [35mhttp[39m: [35mPOST /api/client/3/transaction 200 356 - 157.187 ms[39m
+[35m[39m
+2021-08-22 23:28:41:2841 [35mhttp[39m: [35mPOST /api/client/3/transaction 200 356 - 171.035 ms[39m
+[35m[39m
+2021-08-22 23:38:07:387 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 23:38:07:387 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 23:38:13:3813 [35mhttp[39m: [35mPOST /api/client/3/transaction 200 356 - 163.595 ms[39m
+[35m[39m
+2021-08-22 23:39:17:3917 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 23:39:17:3917 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 23:39:19:3919 [35mhttp[39m: [35mPOST /api/client/3/transaction 200 351 - 80.155 ms[39m
+[35m[39m
+2021-08-22 23:39:22:3922 [35mhttp[39m: [35mPOST /api/client/3/transaction 200 351 - 136.697 ms[39m
+[35m[39m
+2021-08-22 23:39:40:3940 [35mhttp[39m: [35mPOST /api/client/3/transaction 200 350 - 166.584 ms[39m
+[35m[39m
+2021-08-22 23:41:48:4148 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 23:41:48:4148 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 23:42:14:4214 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 23:43:41:4341 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 23:45:08:458 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 23:45:30:4530 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 23:45:30:4530 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 23:45:41:4541 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 23:45:41:4541 [37mdebug[39m: [37mListening on port 8081[39m
+2021-08-22 23:48:52:4852 [35mhttp[39m: [35mPOST /api/client/1/transaction 404 30 - 34.922 ms[39m
+[35m[39m
+2021-08-22 23:48:55:4855 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 361 - 149.785 ms[39m
+[35m[39m
+2021-08-22 23:54:55:5455 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 23:54:55:5455 [37mdebug[39m: [37mListening on port 8081[39m
+2021-08-22 23:55:03:553 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 361 - 160.387 ms[39m
+[35m[39m
+2021-08-22 23:55:07:557 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 361 - 46.675 ms[39m
+[35m[39m
+2021-08-22 23:55:28:5528 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 361 - 162.963 ms[39m
+[35m[39m
+2021-08-22 23:55:43:5543 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 161.285 ms[39m
+[35m[39m
+2021-08-22 23:55:47:5547 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 131.626 ms[39m
+[35m[39m
+2021-08-22 23:55:48:5548 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 140.084 ms[39m
+[35m[39m
+2021-08-22 23:55:49:5549 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 137.723 ms[39m
+[35m[39m
+2021-08-22 23:55:50:5550 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 39.164 ms[39m
+[35m[39m
+2021-08-22 23:55:51:5551 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 128.011 ms[39m
+[35m[39m
+2021-08-22 23:55:52:5552 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 132.363 ms[39m
+[35m[39m
+2021-08-22 23:55:52:5552 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 33.703 ms[39m
+[35m[39m
+2021-08-22 23:55:53:5553 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 132.955 ms[39m
+[35m[39m
+2021-08-22 23:55:54:5554 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 133.056 ms[39m
+[35m[39m
+2021-08-22 23:59:13:5913 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 23:59:13:5913 [37mdebug[39m: [37mListening on port 8081[39m
+2021-08-23 00:02:50:250 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-23 00:02:51:251 [37mdebug[39m: [37mListening on port 8081[39m
+2021-08-23 00:02:56:256 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-23 00:02:56:256 [37mdebug[39m: [37mListening on port 8081[39m
+2021-08-23 00:03:13:313 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 361 - 155.885 ms[39m
+[35m[39m
+2021-08-23 00:03:33:333 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-23 00:03:33:333 [37mdebug[39m: [37mListening on port 8081[39m
+2021-08-23 00:03:50:350 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 361 - 160.995 ms[39m
+[35m[39m
+2021-08-23 00:04:03:43 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 157.652 ms[39m
+[35m[39m
+2021-08-23 00:04:22:422 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 169.813 ms[39m
+[35m[39m
+2021-08-23 00:05:45:545 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-23 00:05:45:545 [37mdebug[39m: [37mListening on port 8081[39m
+2021-08-23 00:06:38:638 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-23 00:06:38:638 [37mdebug[39m: [37mListening on port 8081[39m
+2021-08-23 00:06:39:639 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 165.771 ms[39m
+[35m[39m
+2021-08-23 00:06:40:640 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 135.846 ms[39m
+[35m[39m
+2021-08-23 00:06:44:644 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 134.367 ms[39m
+[35m[39m
+2021-08-23 00:06:45:645 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 216.898 ms[39m
+[35m[39m
+2021-08-23 00:06:45:645 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 41.735 ms[39m
+[35m[39m
+2021-08-23 00:06:46:646 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 56.429 ms[39m
+[35m[39m
+2021-08-23 00:06:47:647 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 37.188 ms[39m
+[35m[39m
+2021-08-23 00:06:48:648 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 43.503 ms[39m
+[35m[39m
+2021-08-23 00:06:49:649 [35mhttp[39m: [35mPOST /api/client/2/transaction 200 362 - 40.735 ms[39m
+[35m[39m

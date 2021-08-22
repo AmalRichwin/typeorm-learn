@@ -1,10 +1,10 @@
-import { Client } from './../entities/Client';
+import { Client } from '../entities/Client';
 import express, { Request, Response } from 'express';
 import Logger from '../lib/logger';
 
 const router = express.Router();
 
-router.post('/api/client', async (req: Request, res: Response) => {
+router.post('/client', async (req: Request, res: Response) => {
   const { firstName, lastName, email, cardNumber, balance, phone } = req.body;
 
   const client = Client.create({
@@ -30,4 +30,4 @@ router.post('/api/client', async (req: Request, res: Response) => {
   }
 });
 
-export { router as createClientRouter };
+export { router as clientRouter };
