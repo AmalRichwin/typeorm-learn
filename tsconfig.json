@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "es6",
-        "module": "commonjs",
+        "module": "CommonJS",
         "lib": [
             "dom",
             "es6",
@@ -26,7 +26,24 @@
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "resolveJsonModule": true,
-        "baseUrl": "."
+        "baseUrl": ".",
+        "paths": {
+            "@lib/*": [
+                "src/lib/*"
+            ],
+            "@config/*": [
+                "src/config/*"
+            ],
+            "@entities/*": [
+                "src/entities/*"
+            ],
+            "@utlis/*": [
+                "src/entities/utils/*"
+            ],
+            "@routes/*": [
+                "src/routes/*"
+            ],
+        }
     },
     "exclude": [
         "node_modules"
@@ -34,5 +51,5 @@
     "include": [
         "./src/**/*.tsx",
         "./src/**/*.ts"
-    ]
+    ],
 }

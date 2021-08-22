@@ -1,0 +1,5 @@
+2021-08-22 13:08:54:854 [31merror[39m: [31mConnection to postgres[39m
+2021-08-22 20:21:21:2121 [31merror[39m: [31mUnable to save client value too long for type character varying(10)[39m
+2021-08-22 20:22:10:2210 [31merror[39m: [31mUnable to save client null value in column "phone" of relation "client" violates not-null constraint[39m
+2021-08-22 20:23:57:2357 [31merror[39m: [31mUnable to save client value "5496929857" is out of range for type integer[39m
+2021-08-22 20:24:16:2416 [31merror[39m: [31mUnable to save client value "9887676543" is out of range for type integer[39m

@@ -6,6 +6,14 @@ import { Client } from './entities/Client';
 import { Banker } from './entities/Banker';
 import { Transaction } from './entities/Transaction';
 
+/**
+ * routes
+ */
+import { createBankerRouter, createClientRouter } from './routes';
+
+import morganMiddleware from './config/morganMiddleware';
+import Logger from './lib/logger';
+
 dotenv.config();
 
 const app = express();
@@ -23,11 +31,18 @@ const main = async () => {
       logger: 'debug',
     });
 
-    console.log('Connection to postgres');
+    Logger.debug('Connection to postgres');
 
-    app.listen(8080, () => console.log('Listening on port 8080'));
+    app.use(express.json());
+    app.use(morganMiddleware);
+
+    // routes
+    app.use(createClientRouter);
+    app.use(createBankerRouter);
+
+    app.listen(8080, () => Logger.debug('Listening on port 8080'));
   } catch (error) {
-    console.log(error);
+    Logger.error(error);
     throw new Error('unable to connect to postgres');
   }
 };

@@ -1,6 +1,6 @@
 import { Client } from './Client';
 import { Person } from './utils/Person';
-import { BaseEntity, Column, CreateDateColumn, Entity, JoinTable, ManyToMany, UpdateDateColumn } from 'typeorm';
+import { Column, CreateDateColumn, Entity, JoinTable, ManyToMany, UpdateDateColumn } from 'typeorm';
 
 @Entity('banker')
 export class Banker extends Person {

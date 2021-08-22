@@ -18,17 +18,13 @@ export class Person extends BaseEntity {
 
   @Column({
     unique: true,
+    type: 'bigint',
   })
   phone: number;
 
   @Column({
     unique: true,
-    length: 10,
+    length: 16,
   })
   card_number: string;
-
-  @Column({
-    type: 'numeric',
-  })
-  balance: number;
 }

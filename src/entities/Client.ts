@@ -6,6 +6,10 @@ import { Banker } from './Banker';
 @Entity('client')
 export class Client extends Person {
   @Column({
+    type: 'numeric',
+  })
+  balance: number;
+  @Column({
     default: true,
     name: 'active',
   })

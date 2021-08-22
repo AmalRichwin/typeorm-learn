@@ -1,0 +1,224 @@
+2021-08-22 13:08:14:814 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 13:08:26:826 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 13:08:54:854 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 13:08:54:854 [31merror[39m: [31mConnection to postgres[39m
+2021-08-22 13:09:04:94 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 13:10:23:1023 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 13:10:51:1051 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 13:11:29:1129 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 13:11:47:1147 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 13:11:54:1154 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 13:12:32:1232 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 13:13:16:1316 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 13:13:19:1319 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 13:14:45:1445 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 18:45:30:4530 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 18:46:00:460 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 18:46:00:460 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 18:46:53:4653 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 18:46:53:4653 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 18:47:34:4734 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 18:47:34:4734 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 18:47:59:4759 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 18:47:59:4759 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 18:52:42:5242 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 18:52:42:5242 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 18:52:45:5245 [35mhttp[39m: [35mGET /api/client 404 149 - 1.747 ms[39m
+[35m[39m
+2021-08-22 18:53:02:532 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.419 ms[39m
+[35m[39m
+2021-08-22 18:53:55:5355 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 18:53:55:5355 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 18:53:58:5358 [35mhttp[39m: [35mPOST /api/client 404 150 - 1.810 ms[39m
+[35m[39m
+2021-08-22 18:53:59:5359 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.881 ms[39m
+[35m[39m
+2021-08-22 18:54:08:548 [35mhttp[39m: [35mGET /api/client 404 149 - 0.302 ms[39m
+[35m[39m
+2021-08-22 18:55:19:5519 [35mhttp[39m: [35mGET / 404 139 - 0.243 ms[39m
+[35m[39m
+2021-08-22 18:55:20:5520 [35mhttp[39m: [35mGET / 404 139 - 0.238 ms[39m
+[35m[39m
+2021-08-22 18:55:21:5521 [35mhttp[39m: [35mGET / 404 139 - 0.465 ms[39m
+[35m[39m
+2021-08-22 18:55:27:5527 [35mhttp[39m: [35mGET /api/client 404 149 - 0.260 ms[39m
+[35m[39m
+2021-08-22 18:57:33:5733 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 18:57:33:5733 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 18:57:57:5757 [35mhttp[39m: [35mPOST /api/client 404 150 - 2.265 ms[39m
+[35m[39m
+2021-08-22 18:59:14:5914 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 18:59:14:5914 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 18:59:19:5919 [35mhttp[39m: [35mPOST /api/client 404 150 - 2.199 ms[39m
+[35m[39m
+2021-08-22 18:59:23:5923 [35mhttp[39m: [35mPOST /api/client 404 150 - 1.060 ms[39m
+[35m[39m
+2021-08-22 18:59:25:5925 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.794 ms[39m
+[35m[39m
+2021-08-22 18:59:39:5939 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.642 ms[39m
+[35m[39m
+2021-08-22 19:01:07:17 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.923 ms[39m
+[35m[39m
+2021-08-22 19:48:43:4843 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 19:48:43:4843 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 19:48:47:4847 [35mhttp[39m: [35mPOST /api/client 404 150 - 1.272 ms[39m
+[35m[39m
+2021-08-22 19:50:04:504 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 19:50:04:504 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 19:50:09:509 [35mhttp[39m: [35mPOST /api/clients 200 5 - 1.856 ms[39m
+[35m[39m
+2021-08-22 19:50:12:5012 [35mhttp[39m: [35mPOST /api/clients 200 5 - 0.385 ms[39m
+[35m[39m
+2021-08-22 19:50:13:5013 [35mhttp[39m: [35mPOST /api/clients 200 5 - 0.167 ms[39m
+[35m[39m
+2021-08-22 19:50:14:5014 [35mhttp[39m: [35mPOST /api/clients 200 5 - 0.177 ms[39m
+[35m[39m
+2021-08-22 19:50:15:5015 [35mhttp[39m: [35mPOST /api/clients 200 5 - 0.181 ms[39m
+[35m[39m
+2021-08-22 19:50:15:5015 [35mhttp[39m: [35mPOST /api/clients 200 5 - 0.207 ms[39m
+[35m[39m
+2021-08-22 19:50:41:5041 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 19:50:41:5041 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 19:50:44:5044 [35mhttp[39m: [35mPOST /api/client 404 150 - 1.191 ms[39m
+[35m[39m
+2021-08-22 19:51:06:516 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 19:51:06:516 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 19:51:06:516 [35mhttp[39m: [35mPOST /api/client 404 150 - 1.120 ms[39m
+[35m[39m
+2021-08-22 19:51:23:5123 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 19:51:23:5123 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 19:51:30:5130 [35mhttp[39m: [35mPOST /api/client 404 150 - 1.443 ms[39m
+[35m[39m
+2021-08-22 19:51:45:5145 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 19:51:45:5145 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 19:51:46:5146 [35mhttp[39m: [35mPOST /api/client 404 150 - 1.424 ms[39m
+[35m[39m
+2021-08-22 19:53:25:5325 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 19:53:25:5325 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 19:53:28:5328 [35mhttp[39m: [35mPOST /api/client 404 150 - 1.246 ms[39m
+[35m[39m
+2021-08-22 19:53:29:5329 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.228 ms[39m
+[35m[39m
+2021-08-22 19:53:45:5345 [35mhttp[39m: [35mPOST /api/clients 200 5 - 1.337 ms[39m
+[35m[39m
+2021-08-22 19:53:55:5355 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.110 ms[39m
+[35m[39m
+2021-08-22 19:53:56:5356 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.157 ms[39m
+[35m[39m
+2021-08-22 19:53:57:5357 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.117 ms[39m
+[35m[39m
+2021-08-22 19:53:58:5358 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.110 ms[39m
+[35m[39m
+2021-08-22 19:53:59:5359 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.106 ms[39m
+[35m[39m
+2021-08-22 19:54:13:5413 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 19:54:13:5413 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 19:54:19:5419 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 19:54:19:5419 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 19:54:20:5420 [35mhttp[39m: [35mPOST /api/clientss 404 152 - 1.288 ms[39m
+[35m[39m
+2021-08-22 19:54:31:5431 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 19:54:31:5431 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 19:54:32:5432 [35mhttp[39m: [35mPOST /api/hello 404 149 - 1.571 ms[39m
+[35m[39m
+2021-08-22 19:54:33:5433 [35mhttp[39m: [35mPOST /api/hello 404 149 - 0.260 ms[39m
+[35m[39m
+2021-08-22 19:56:23:5623 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 19:56:23:5623 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 19:56:37:5637 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 19:56:37:5637 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 19:56:37:5637 [35mhttp[39m: [35mPOST /api/hello 404 149 - 1.278 ms[39m
+[35m[39m
+2021-08-22 19:56:38:5638 [35mhttp[39m: [35mPOST /api/hello 404 149 - 0.350 ms[39m
+[35m[39m
+2021-08-22 19:56:39:5639 [35mhttp[39m: [35mPOST /api/hello 404 149 - 0.146 ms[39m
+[35m[39m
+2021-08-22 19:56:43:5643 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.173 ms[39m
+[35m[39m
+2021-08-22 19:57:03:573 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 19:57:03:573 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 19:57:04:574 [35mhttp[39m: [35mPOST /api/client 404 150 - 1.447 ms[39m
+[35m[39m
+2021-08-22 20:07:52:752 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:07:52:752 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:08:13:813 [35mhttp[39m: [35mPOST /api/client 404 150 - 1.350 ms[39m
+[35m[39m
+2021-08-22 20:08:14:814 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.267 ms[39m
+[35m[39m
+2021-08-22 20:08:21:821 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.167 ms[39m
+[35m[39m
+2021-08-22 20:08:23:823 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.170 ms[39m
+[35m[39m
+2021-08-22 20:08:23:823 [35mhttp[39m: [35mPOST /api/client 404 150 - 0.169 ms[39m
+[35m[39m
+2021-08-22 20:09:05:95 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:09:05:95 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:09:08:98 [35mhttp[39m: [35mPOST /api/client 200 5 - 1.558 ms[39m
+[35m[39m
+2021-08-22 20:09:17:917 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:09:17:917 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:09:33:933 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:09:33:933 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:09:50:950 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:09:50:950 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:10:07:107 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:10:07:107 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:10:07:107 [35mhttp[39m: [35mPOST /api/client 200 5 - 1.979 ms[39m
+[35m[39m
+2021-08-22 20:10:12:1012 [35mhttp[39m: [35mPOST /api/client 200 5 - 0.289 ms[39m
+[35m[39m
+2021-08-22 20:12:14:1214 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:12:14:1214 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:14:26:1426 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:14:26:1426 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:14:49:1449 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:14:49:1449 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:15:43:1543 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:15:43:1543 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:16:21:1621 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:16:21:1621 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:19:54:1954 [37mdebug[39m: [37mCLIENT OBJ[39m
+2021-08-22 20:20:47:2047 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:20:47:2047 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:21:19:2119 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:21:19:2119 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:21:20:2120 [37mdebug[39m: [37mCLIENT OBJ[39m
+2021-08-22 20:21:21:2121 [31merror[39m: [31mUnable to save client value too long for type character varying(10)[39m
+2021-08-22 20:21:21:2121 [35mhttp[39m: [35mPOST /api/client 400 76 - 36.883 ms[39m
+[35m[39m
+2021-08-22 20:22:06:226 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:22:06:226 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:22:10:2210 [37mdebug[39m: [37mCLIENT OBJ[39m
+2021-08-22 20:22:10:2210 [31merror[39m: [31mUnable to save client null value in column "phone" of relation "client" violates not-null constraint[39m
+2021-08-22 20:22:10:2210 [35mhttp[39m: [35mPOST /api/client 400 113 - 143.727 ms[39m
+[35m[39m
+2021-08-22 20:23:55:2355 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:23:55:2355 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:23:57:2357 [37mdebug[39m: [37mCLIENT OBJ[39m
+2021-08-22 20:23:57:2357 [31merror[39m: [31mUnable to save client value "5496929857" is out of range for type integer[39m
+2021-08-22 20:23:57:2357 [35mhttp[39m: [35mPOST /api/client 400 84 - 32.880 ms[39m
+[35m[39m
+2021-08-22 20:24:16:2416 [37mdebug[39m: [37mCLIENT OBJ[39m
+2021-08-22 20:24:16:2416 [31merror[39m: [31mUnable to save client value "9887676543" is out of range for type integer[39m
+2021-08-22 20:24:16:2416 [35mhttp[39m: [35mPOST /api/client 400 84 - 37.085 ms[39m
+[35m[39m
+2021-08-22 20:24:53:2453 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:24:53:2453 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:24:53:2453 [37mdebug[39m: [37mCLIENT OBJ[39m
+2021-08-22 20:24:53:2453 [35mhttp[39m: [35mPOST /api/client 200 304 - 81.369 ms[39m
+[35m[39m
+2021-08-22 20:26:06:266 [37mdebug[39m: [37mCLIENT OBJ[39m
+2021-08-22 20:26:06:266 [35mhttp[39m: [35mPOST /api/client 200 292 - 165.483 ms[39m
+[35m[39m
+2021-08-22 20:27:27:2727 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:27:27:2727 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:27:44:2744 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:27:44:2744 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:29:35:2935 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:29:35:2935 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:30:13:3013 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:30:13:3013 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:30:58:3058 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:30:58:3058 [37mdebug[39m: [37mListening on port 8080[39m
+2021-08-22 20:31:25:3125 [37mdebug[39m: [37mConnection to postgres[39m
+2021-08-22 20:31:25:3125 [37mdebug[39m: [37mListening on port 8080[39m
