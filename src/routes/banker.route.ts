@@ -31,4 +31,24 @@ router.post('/banker', async (req: Request, res: Response) => {
   }
 });
 
+router.put('/banker/:bankerId/client/:clientId', async (req, res) => {
+  const { bankerId, clientId } = req.params;
+  try {
+    const client = await Client.findOne(parseInt(clientId));
+
+    const banker = await Banker.findOne(parseInt(bankerId));
+
+    if (!client || !banker) {
+      return res.json({ status: 'error', message: ' banker or client not found' });
+    }
+    banker.clients = [client];
+
+    await banker.save();
+
+    return res.json({ status: 'success', message: 'banker connected to client' });
+  } catch (error) {
+    return res.json({ status: 'error', message: error.message });
+  }
+});
+
 export { router as bankerRouter };

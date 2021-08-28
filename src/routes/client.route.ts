@@ -30,4 +30,15 @@ router.post('/client', async (req: Request, res: Response) => {
   }
 });
 
+router.delete('/client/:clientId', async (req: Request, res: Response) => {
+  const { clientId } = req.params;
+  try {
+    const response = await Client.delete(parseInt(clientId));
+
+    return res.json({ status: 'success', client: response });
+  } catch (error) {
+    return res.json({ status: 'error', message: error.message });
+  }
+});
+
 export { router as clientRouter };

@@ -42,7 +42,7 @@ const main = async () => {
     app.use('/api', bankerRouter);
     app.use('/api', transactionRouter);
 
-    app.listen(8081, () => Logger.debug('Listening on port 8081'));
+    app.listen(8080, () => Logger.debug('Listening on port 8080'));
   } catch (error) {
     Logger.error(error);
     throw new Error('unable to connect to postgres');

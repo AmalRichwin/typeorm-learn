@@ -5,3 +5,6 @@
 2021-08-22 20:24:16:2416 [31merror[39m: [31mUnable to save client value "9887676543" is out of range for type integer[39m
 2021-08-22 20:48:27:4827 [31merror[39m: [31mapp.use() requires a middleware function[39m
 2021-08-22 20:48:41:4841 [31merror[39m: [31mapp.use() requires a middleware function[39m
+2021-08-25 19:08:39:839 [31merror[39m: [31mconnect ECONNREFUSED 127.0.0.1:5438[39m
+2021-08-28 12:49:09:499 [31merror[39m: [31mconnect ECONNREFUSED 127.0.0.1:5438[39m
+2021-08-28 18:22:40:2240 [31merror[39m: [31mthe database system is starting up[39m

@@ -1,6 +1,7 @@
 import { Transaction, TransactionType } from './../entities/Transaction';
 import { Client } from './../entities/Client';
 import express, { Request, Response } from 'express';
+import e from 'express';
 
 const router = express.Router();
 
@@ -30,8 +31,12 @@ router.post('/client/:clientId/transaction', async (req: Request, res: Response)
       client.balance = +client.balance + amount;
       client.transactions = [transaction];
     } else if (type === TransactionType.WITHDRAW) {
-      client.balance = +client.balance - amount;
-      client.transactions = [transaction];
+      if (client.balance - amount > 100) {
+        client.balance = +client.balance - amount;
+        client.transactions = [transaction];
+      } else {
+        return res.status(400).json({ message: 'Not enough funds' });
+      }
     }
 
     const updateClient = await client.save();
