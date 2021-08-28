@@ -1,6 +1,7 @@
 import { Client } from '../entities/Client';
 import express, { Request, Response } from 'express';
 import Logger from '../lib/logger';
+import { createQueryBuilder } from 'typeorm';
 
 const router = express.Router();
 
@@ -36,6 +37,23 @@ router.delete('/client/:clientId', async (req: Request, res: Response) => {
     const response = await Client.delete(parseInt(clientId));
 
     return res.json({ status: 'success', client: response });
+  } catch (error) {
+    return res.json({ status: 'error', message: error.message });
+  }
+});
+
+router.get('/clients', async (req: Request, res: Response) => {
+  try {
+    const clients = await createQueryBuilder('client')
+      .select('client.first_name')
+      .addSelect('client.last_name')
+      .from(Client, 'client')
+      .where('client.balance >= :balance', {
+        balance: 200000,
+      })
+      .getManyAndCount();
+
+    return res.json({ status: 'success', client: clients });
   } catch (error) {
     return res.json({ status: 'error', message: error.message });
   }
